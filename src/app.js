@@ -245,7 +245,6 @@ console.log("=================getDays===================");
 console.log(getDays(new Date("July 20, 2019"), new Date("July 30, 2019")));
 console.log("====================================");
 
-//Write a JavaScript program that accept two numbers and print the larger number
 const largerNumber = (num1, num2) => {
   if (num1 > num2) {
     return num1;
